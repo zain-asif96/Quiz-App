@@ -1,73 +1,73 @@
 body {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: fantasy;
-    background: linear-gradient(-90deg, #00c4ff, #7d2da661);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(-90deg, #00c4ff, #7d2da661);
 }
 
 button:focus,
 button:active {
-    outline: none !important;
-    box-shadow: none !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 .quiz-head {
-    font-weight: bold;
-    color: #ffffff;
-    text-shadow: 1px 1px 17px #000000;
-    text-decoration: overline;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 1px 1px 17px #000000;
+  text-decoration: overline;
 }
 
 .ques-head {
-    text-decoration: underline;
-    font-size: 26px;
-    font-weight: 600;
-    color: #ffff;
+  text-decoration: underline;
+  font-size: 26px;
+  font-weight: 600;
+  color: #ffff;
 }
 
 .start-btn {
-    margin: auto;
-    border: transparent;
-    border-radius: 14px;
-    height: 40px;
-    display: flex;
-    width: 200px;
-    justify-content: center;
-    align-items: center;
-    background: #ff4242;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 21px;
-    box-shadow: inset 1px 1px 20px 6px #fff4be;
+  margin: auto;
+  border: transparent;
+  border-radius: 14px;
+  height: 40px;
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  background: #ff4242;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 21px;
+  box-shadow: inset 1px 1px 20px 6px #fff4be;
 }
 
 .answer-btn {
-    margin: auto;
-    border: transparent;
-    border-radius: 14px;
-    height: 40px;
-    display: flex;
-    width: 200px;
-    justify-content: center;
-    align-items: center;
-    background: #ff4242;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 21px;
-    box-shadow: inset 1px 1px 20px 6px #fff4be;
+  margin: auto;
+  border: transparent;
+  border-radius: 14px;
+  height: 40px;
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  background: #ff4242;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 21px;
+  box-shadow: inset 1px 1px 20px 6px #fff4be;
 }
 
 .result-content {
-    text-align: center;
-    color: #fff4be;
-    font-weight: bold;
-    border: 4px solid #069ee6;
-    padding: 10px;
-    box-shadow: inset 1px 1px 18px 4px;
-    margin: 0 auto;
+  text-align: center;
+  color: #fff4be;
+  font-weight: bold;
+  border: 4px solid #069ee6;
+  padding: 10px;
+  box-shadow: inset 1px 1px 18px 4px;
+  margin: 0 auto;
 }
 
-input[type=checkbox], input[type=radio] {
-    margin-right: 10px;
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 10px;
 }
